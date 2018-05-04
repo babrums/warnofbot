@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "target": "es2017",
+    "sourceMap": false,
+    "types": ["node"],
+    "outDir": "js"
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": ["src/"]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "warnbobot",
+  "version": "1.0.0",
+  "description": "Difficult and ugly telegram bot for warning users",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && nodemon js/index.js",
+    "host": "tsc && pm2 start js/index.js --name Warnof",
+    "serve": "nodemon js/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/babrums/warnBobot.git"
+  },
+  "author": "Babrums",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/babrums/warnBobot/issues"
+  },
+  "homepage": "https://github.com/babrums/warnBobot#readme",
+  "dependencies": {
+    "async": "^2.6.0",
+    "dotenv": "^5.0.1",
+    "mongoose": "^5.0.11",
+    "node-telegram-bot-api": "^0.30.0",
+    "winston": "^2.4.1"
+  },
+  "devDependencies": {
+    "@types/async": "^2.0.48",
+    "@types/dotenv": "^4.0.2",
+    "@types/mongoose": "^5.0.7",
+    "@types/node": "^9.4.7",
+    "@types/winston": "^2.3.8",
+    "nodemon": "^1.17.2",
+    "typescript": "^2.7.2"
+  }
+}
